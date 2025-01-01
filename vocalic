@@ -1,0 +1,40 @@
+#          This is based on al Sutti formulla in Almuzhir
+#           A function to Generate all possible two-character combinations of the Arabic alphabet.
+
+from itertools import product
+
+def generate_arabic_combinations():
+    """
+    Generate all possible two-character combinations of the Arabic alphabet, including both
+    the normal order and the reversed order of each pair. The Arabic alphabet contains 28
+    letters, resulting in 784 total combinations (392 unique pairs, each counted twice).
+
+    Returns:
+        list: A list of 784 strings, each representing a two-character combination.
+    """
+    # Step 1: Define the Arabic alphabet
+    arabic_alphabet = [
+        "ا", "ب", "ت", "ث", "ج", "ح", "خ", "د", "ذ", "ر",
+        "ز", "س", "ش", "ص", "ض", "ط", "ظ", "ع", "غ", "ف",
+        "ق", "ك", "ل", "م", "ن", "ه", "و", "ي"
+    ]
+
+    # Step 2: Create all combinations of the alphabet with itself (28 * 28)
+    combinations = list(product(arabic_alphabet, repeat=2))
+
+    # Step 3: Keep all 392 unique combinations
+    unique_combinations = ["".join(combo) for combo in combinations]
+
+    # Step 4: Multiply the 392 unique combinations by 2 to include both normal and reversed pairs
+    final_combinations = []
+    for pair in unique_combinations:
+        final_combinations.append(pair)        # Normal pair
+        final_combinations.append(pair[::-1])  # Reversed pair
+
+    # Step 5: Return the final list of combinations
+    return final_combinations
+
+# Example usage
+combinations = generate_arabic_combinations()
+print(f"Total combinations: {len(combinations)}")
+print(combinations)  # Print all combinations
