@@ -1,4 +1,45 @@
+"""
+The source of this text the Sound Patterns of ENGLISH (a.k.a SPE) by N. Chomsky & Hall (1968). 
+In Lingustics, SPE is where Generative Grammar theory on natural languages is proposed.
+The book is used for relevance of concepts and as guidance. To give an example, the classical Arabic rule for subjective pronouns suffixation
+(sing. /ṭā'/, plr. /noon/) to the a "bare halow root" is similare to Chomsky's rule of moving (or intercalating) long component vowel patterns
+into triconsonantal roots. According to McCarthy 1981, it could reasonably be claimed that transformational morphological rules, essentially 
+similar to Chomsky's, form the basis of the analysis of Semitic nonconcatenative morphology within the generative tradition. I do agree with that.
 
+Anyhow, for the purpose of this work, I will make amendments where approporiate.Now, few concepts are in order here.
+
+> Universal Phonetics Features.
+	What is of intrest here is the Formal morphological Universals of the traditional Classical Arabic theory.
+	Particularly, 
+
+
+						#		Linguistic Universals (LU) are the essential properties of natural language.Two types of LU.
+								The first catgory is Formal universals. Within a Generative framework, this is a phonological component  
+								dictating the rules for:
+														1. the kind of rules that can appear in a grammar,
+														2. the kinds of structures on which they may operate,and
+														3. the ordering conditions under which these rules may apply.
+
+
+						# 		The second catogory Substantive Universals. a General Linguistics theory might propose as 'Substantive Universals' that:
+								1. the lexical items of a language are assigned to fixed categories such as: noun, verb, and adjective.
+								2. that phonetic transcriptions must make use of a particular, fixed set of phonetic features.
+								   It is the theory of "universal phonetics", which is part of General linguistics, that specifies the class of
+								   "possible phonetic representations" of sentences; by determining the universal set of phonetic features and
+								   the conditions on their possible combinations. The phonetic form of each sentence in each language is drawn from
+								   this class of possible phonetic representations. 
+
+
+ > Phonetic Representations.
+
+a phonetic representation?
+that utterances are sequences of discrete segments, that segments are complexes of a particular set of phonetic features, and that the simultaneous and sequential combinations of
+these features are subject to a set of specific constraints.
+
+
+
+
+"""
 
 from itertools import product
 
