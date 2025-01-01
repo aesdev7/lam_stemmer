@@ -1,4 +1,57 @@
 # This is __init__.py 
+text in (paranthases) is a remark on the what is to be empirically proven as a misconception.
+"""
+
+This is motivated by McCarthy, (1981); a treatment of the nonconcatenative morphological system of Classical Arabic (Cl.Ar). 
+In fact, Semitic languages morphological derivation processes are characterised by a wide variety of purely morphological alternations internal to the stem
+(phonological alternations to be exact). As a result, Arabic morphological categories are expressed not expressed by the conventional affixation system, as in
+Indo-European languages, but by morphemes whose only constant is a fixed canonical pattern. (for accuracy sakes, whose only constant is the template's phonological rules/patterns .i.e
+contigous consonant-vowel segments e.g. in a CV.[CV].CV skelton. Indeed, this seaminglly simple trivil fact is the secret of the complixity of the whole system.
+This project aims at explicating the system of predicates used to analyze inputs i.e. the possible structural descriptions of rules, and to define the operations
+available for transforming inputs, the possible Structural Changes of rules. Ultimitly, a structural description delimiting a class of inputs and a Structural Change specifying
+the operations that altered the input are sought.
+predicates used to analyze inputs;
+
+where the 'V' segment is Universally Marked is oscillate the short vowel segment falles on the, what I will be calling here the nucluse of the verb root
+What McCarthy calls ' the vowel melody'). 
+
+Theory prosodic of nonconcatenative morphology
+
+One of the classic linguistic issues is that of providing an account of the nonconcatenative 
+morphological system prevailing in most members of the Semitic language family.
+"""
+
+
+
+/a/: A low, open vowel.
+/i/: A high, front vowel.
+/u/: A high, back vowel.
+Vowels are characterized by their steady-state articulatory positions, serving as syllable nuclei.
+
+There is another class of data that is richly attested in Arabic and other Semitic 
+languages. In the standard phonological theory, phonological rules that are restricted 
+to some morpheme or morpheme class must refer to +-boundary and perhaps also to 
+some set of morphological diacritic features. In a nonconcatenative system, + -boundary 
+is clearly unavailable, so such rules could not be formulated. I present three cases of 
+this sort below in support of the [-notation. These rules must, however, be taken as 
+preliminary, since they would necessarily be rewritten in the light of the more elaborated 
+analysis of Arabic (and Semitic) morphology in subsequent sections of this article. This 
+consideration does not affect the argument
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
