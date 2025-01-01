@@ -2,11 +2,13 @@
 text in (paranthases) is a remark on the what is to be empirically proven as a misconception.
 """
 
-This is motivated by McCarthy, (1981); a treatment of the nonconcatenative morphological system of Classical Arabic (Cl.Ar). 
-In fact, Semitic languages morphological derivation processes are characterised by a wide variety of purely morphological alternations internal to the stem
-(phonological alternations to be exact). As a result, Arabic morphological categories are expressed not expressed by the conventional affixation system, as in
-Indo-European languages, but by morphemes whose only constant is a fixed canonical pattern. (for accuracy sakes, whose only constant is the template's phonological rules/patterns .i.e
-contigous consonant-vowel segments e.g. in a CV.[CV].CV skelton. Indeed, this seaminglly simple trivil fact is the secret of the complixity of the whole system.
+This is motivated by McCarthy, (1981); a treatment of the nonconcatenative morphological system of Classical Arabic verbal system (Cl.Ar). 
+Semitic languages processes of morphological derivation are characterised by a wide variety of purely morphological alternations internal to the verb stem
+( its more of phonological alternations than morphological alternations ones).
+
+Thus, Cl.Ar Morphological Categories are expressed by morphemes whose only constant is a fixed canonical pattern based on triplicity concept. (for accuracy sakes, the constant is the template's phonological
+rules/patterns. In other words, contigous consonant-vowel segments e.g. in a CV.[CV].CV skelton. the conventional affixation system, as in
+Indo-European languages, but  Indeed, this seaminglly simple trivil fact is the secret of the complixity of the whole system.
 This project aims at explicating the system of predicates used to analyze inputs i.e. the possible structural descriptions of rules, and to define the operations
 available for transforming inputs, the possible Structural Changes of rules. Ultimitly, a structural description delimiting a class of inputs and a Structural Change specifying
 the operations that altered the input are sought.
