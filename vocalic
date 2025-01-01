@@ -1,32 +1,4 @@
-# This is for __init__.py
 
-"""
-1.	Preliminaries.
-A.	As principally conceived, the RULE of grammar was to be built from a Structural Description delimiting a class of inputs and a Structural Change specifying the operations that altered the input Explicating the system of predicates used to analyze inputs; the possible structural descriptions of rules, and to define the operations available for transforming inputs, the possible Structural Changes of rules.
-B.	In dispute still, is the character of well-formedness constraints interaction, the relation between such constraints and whatever derivational rules they are meant to influence.  Indeed, this our impedes understanding the basic functioning of the grammar. The key point to underscore here is the role of well-formedness constraints as involving a kind of conceptual crisis at the center of phonological thought. Indeed, any serious theory of phonology must rely heavily on well-formedness constraints; where serious means commitment to Universal Grammar. 
-
-2.	The Task:
-
-A.	To explicate the system of predicates used to analyze inputs in Classical Arabic; the possible Structural Descriptions of rules, and to define the operations available for transforming inputs; the possible Structural Changes of rules.
-B.	To establish a class of possible phonetic representation of Classical Arabic sentences by determining the universal set of phonetic features and the conditions on possible phonetic representation possible combinations.
-C.	The role of the representational well-formedness determines the assignment of grammatical structure, the character of the interaction among the posited well-formedness constraints, as well as the relation between such constraints and whatever derivational rules they are meant to influence.
-
-The Function proceeds as following:
--	Multiply Arabic consonants alphabet 28 * 28. A total of 784 single segments results from the multiplication. The result violates the Minimal-Root\Triplicity constraints (forthcoming) i.e. a single segment dose not compose a verb root in Arabic.
--	Orthographically speaking, bilateral root verbs build is in order. Phonologically, this type of roots does not violate Triplicity constraints (Idgam). The task is accomplished by pairing segments resulting in a total combination of 392 pairs of orderly unique bilateral verbs. Furthermore, for each single pair, do make a reversed pair; hence, one unique orderly pair and one unique reversed pair. Mathematically, 392*392= 784.
-
--	At this point, a few statistics are in order. Do print the count of: strong bilateral roots (a root composed of two consonants i.e. no vowel). Do the same for weak roots( a consonant and a vowel). The count of pairs composed of identical segments e.g.  "د د". The count of pairs composed of two vowels.
-
-
-"""
-
-
-
-
-
-#          This is based on Al Suti formulla in Almuzhir
-#           A function to Generate all possible two-character combinations of the Arabic alphabet.
-# Here is the explaination 
 
 from itertools import product
 
