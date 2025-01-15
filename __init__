@@ -13,16 +13,252 @@ This project aims at explicating the system of predicates used to analyze inputs
 available for transforming inputs, the possible Structural Changes of rules. Ultimitly, a structural description delimiting a class of inputs and a Structural Change specifying
 the operations that altered the input are sought.
 
-
-
 /a/: A low, open vowel.
 /i/: A high, front vowel.
 /u/: A high, back vowel.
 Vowels are characterized by their steady-state articulatory positions, serving as syllable nuclei.
 
+_________________________________________________________________________________________________________
 
 
-"""
+Classical Arabist phonology can be seen as a blend of both normative and descriptive approaches. While Arabist grammarians 
+and linguists often established rules that were prescriptive, guiding correct pronunciation and usage based on classical norms, 
+they also demonstrated a keen interest in documenting and describing the phonological systems of Arabic as they evolved. 
+The normative aspect can be seen in their emphasis on preserving the traditional forms of the language, often seeking to codify 
+and standardize pronunciation according to established classical models. However, Arabist phonologists were also deeply attuned 
+to the variations and nuances of spoken Arabic, recording regional dialects and shifts in pronunciation that deviated from the 
+normative forms. In this way, their work was not merely about dictating how Arabic should be spoken, but also about observing 
+and analyzing the natural phonological developments and shifts within the language, making Arabist phonology a complex 
+intersection of both prescriptive and descriptive methods.
+While the comparative philologists, particularly those focused on Indo-European languages, often relied on a purely comparative 
+method without considering the historical relationships between languages, Arabist philologists took a more holistic and historically
+aware approach. They recognized that the study of language, especially Arabic, was deeply tied to its sacred use in the Qur’an, and thus
+the correct use of language was a central objective throughout their work. Arabists understood the significance of preserving the linguistic
+integrity of Arabic, as the Qur'an was viewed as a model of linguistic purity. While they employed comparative methods to analyze the language, 
+they also considered the historical and contextual factors that shaped its evolution. Unlike Schleicher, who viewed language development through
+the lens of rigid, independent stages, Arabist philologists recognized that language change was not linear or predetermined but influenced by both
+historical processes and the need to maintain linguistic correctness in sacred texts. Their methodology, therefore, was not only attentive to the 
+dynamics of language change but also committed to preserving the sanctity and correctness of the language as a living and evolving medium.
+This research paper focuses on the treatments of medieval Arabic grammarians, particularly their approach to morphophonemic theory, and positions
+these classical insights within a modern linguistic framework. To that effect, I will be arguing against Saussure (1959) claims on the object and
+subject matter of Linguistics study as outlined in his prominent work Course in general linguistics. Saussure postulate that the field of linguistics
+encompasses all forms of human speech, whether from primitive or advanced societies, or from ancient, classical, or declining periods. In this study
+on the other hand, I will be arguing that Linguistics study object is human language speech as a well-formed system. As Linguistics subject matter, 
+linguists are to determine the forces that are permanently and universally at work in natural languages, and to explicate general laws to which all 
+well-formed phenomena can be reduced. Ultimately, an answer to the following research questions is sought:
+(1). How can medieval Arabist treatments of morphophonemic theory be reconciled with modern linguistics frameworks of 
+generative phonology and nonconcatenative morphology as proposed in Chomsky and Halle’s (1968) and McCarthy's (1981) consecutively?
+(2). How can medieval Arabist treatments of morphophonemic theory contribute to the modern linguistics central subject matter of explicating 
+the system of predicates used to analyze inputs and the possible Structural Changes of rules?
+This research employs a qualitative methodology, analyzing Classical Arabic linguistic theory within the framework of Generative linguistics,
+particularly focusing on levels of adequacy. The study frames the Arabic verbal derivational system, drawing from classical Arabic phonology 
+and morphology, and situates it within a modern linguistic framework that includes generative theory and Optimality theory. In line with the 
+first research question, the study explores how medieval Arabist treatments of morphophonemic theory can be reconciled with contemporary generative 
+frameworks, specifically Chomsky and Halle’s (1968) generative phonology and McCarthy's (1981) nonconcatenative morphology. In this context, insights 
+from Optimality theory, especially constraints interaction, are applied to understand how classical Arabist grammarians addressed phonological 
+nd morphological processes. The goal is to assess the adequacy of classical theories within modern linguistic structures and to investigate the 
+interaction between constraints in the derivation of verbal forms in Arabic.
+For the second research question, the study focuses on Ibn Mālik’s Lāmiyat al-Afʿāl, a seminal work in classical Arabic grammatical studies. 
+By analyzing how this text has been treated in classical Arabic literature, the study seeks to gain insights into the formalism and rule postulating 
+in Arabist grammatical tradition. Ibn Mālik’s approach to the verbal system provides valuable perspectives on rule-based formalism, which will be examined 
+in light of modern linguistic theories of formal grammar. Through this examination, the research will evaluate how the formal linguistic structures and 
+rule application in Ibn Mālik’s work align with and contribute to the broader discussion on the system of predicates and structural changes in contemporary 
+generative and morphological theory.
+Additionally, a literature review is conducted to examine the most recent research studies on the topic, with the aim of identifying gaps in the existing
+literature. This review helps to contextualize the current study within the broader academic discourse, highlighting areas that have been underexplored 
+or require further investigation. By analyzing the latest findings, the review also informs the research direction, ensuring that the study addresses 
+relevant issues and contributes to advancing the field.
+the literature review section provides a critical examination of the most recent studies in the field, highlighting existing gaps and establishing 
+the theoretical framework for the research. This review sets the stage for the subsequent analysis, which will focus on Classical Arabic phonology, 
+specifically examining the verbal derivational system within the context of Generative theory and Optimality theory. The methodology section outlines
+the qualitative approach adopted for the study, drawing on data from major classical Arabic texts and phonological literature. In addressing the research questions,
+the analysis will investigate how medieval Arabist treatments of morphophonemic theory align with modern linguistic frameworks, particularly those proposed by Chomsky,
+Halle, and McCarthy. The study will also examine Ibn Mālik’s Lamiyyat al-alf‘āl to explore its contributions to formalism and rule postulation in classical Arabic studies.
+Finally, the study will conclude with a discussion of the findings, emphasizing their implications for modern linguistic theory and offering 
+recommendations for further research in the area of Arabic linguistics.
+This paper is organized as following, the literature review section provides critical examination of the most recent studies in the field relevant 
+to the research questions with focusing on existing gaps and establishing the theoretical framework for the research. This review sets the stage 
+for the subsequent analysis, which will focus on Classical Arabic phonology, specifically examining the verbal derivational system within the
+context of Generative theory and Optimality theory. The methodology section outlines the qualitative approach adopted for the study, drawing 
+on data from major classical Arabic texts and phonological literature. In addressing the research questions, the analysis will investigate 
+how medieval Arabist treatments of morphophonemic theory align with modern linguistic frameworks, particularly those proposed by Chomsky, 
+Halle, and McCarthy. The study will also examine Ibn Mālik’s Lamiyyat al-alf‘āl to explore its contributions to formalism and rule postulation
+in classical Arabic studies. Finally, the study will conclude with a discussion of the findings, emphasizing their implications for modern
+linguistic theory and offering recommendations for further research in the area of Arabic linguistics.
+
+Literature Review: Theoretical Framework
+Classical Arabic Morphological Verb Derivation and Its Relevance to Chomsky’s Transformational Rules
+In many languages, morphological categories are expressed not by conventional affixes but by morphemes 
+whose only constant is a fixed canonical pattern, what might be called shape-invariant morphology. 
+Much of the time, morphology is just word-syntax. That is, the morphological grammar of a language postulate statements 
+like "less” is a Level 2 suffix. But this is not always true, and the cases where it is not true reveal a great deal about
+morphological structure and its relation to phonology. The most common kind of shape-invariant morphology are suprafixation,
+infixation, and reduplication. The latter is central to the templatic morphology of Arabic.
+In Arabic, morphological differences are expressed by stipulating a fixed canonical form of the stem 
+that does not vary despite independent morphological or lexical processes in the consonants or vowels that fill
+canonical form slots. Consider elements in table (1):
+(1)
+Form
+/ʕjb/	/xbθ/	/ʕzz/	/ṭbb/
+Perfective Active	/ʕaːba:/	* /xa:b [a, ʊ, i] θa:/	/ʕa:zzـــn:/	/ṭa:bba:/
+Perfective Passive	/ʕjba/	/xa:bʊθa:/	*/ʕ[ʊ, i]zza:/	*/ṭʊbba:/
+Imperfect Active	/ʕa[ʔ,i̯a] b/	[/ʔa.x.ba.θa/, /xa.bjθ/]	/ʕa.ziːz/	/ṭa.bjb/
+Imperfect Passive	/ʕaj.ja.ba/	/xab.ba.θa/	/ʕaz.za.za/	/ṭab.ba.ba/
+
+The small array under (1) is sufficient to demonstrate the property of shape-invariance in Arabic
+templatic morphology. Moving across the columns of (1) changes the consonantal root, the fundamental
+lexical unit of the language. Despite this change in the consonants, the canonical pattern remains
+the same. Similarly, moving down the rows of (1) changes the vocalism: voice goes from active to passive 
+or aspect from perfective to imperfective. Again the canonical pattern remains the same. Similar regularities
+are met with throughout the Arabic system of verbal conjugations.
+
+Theoretically, Classical Arabic’s verb morphology revolves around a highly systematic
+derivational process that transforms triliteral roots into a variety of verb forms, each 
+representing different syntactic and semantic properties. The process involves root and pattern
+(binyan) morphology, where consonantal roots are combined with specific vowel patterns to generate
+diverse verb forms, known as the binyan system (Fassi Fehri, 1993; Versteegh, 2014). his intricate 
+process involves not only the insertion of vowels but also phonological alternations such as gemination, 
+vowel lengthening, and metathesis, which contribute to the morphophonemic structure of the word. These alternations,
+which reflect changes in the pronunciation and structure of the root and its associated vowel patterns, are a hallmark
+of Arabic morphology and demonstrate the dynamic interaction between phonological rules and morphological derivation. 
+To illustrate, note figure (2) showing a universal association conventions casted in terms of the mapping of melodic 
+elements  (units on an autosegmental tier) onto melody-bearing elements  (units on the segmental tier) adapted from McCarthy (1981).
+(2). 
+a.  	A    B     C …  					b.   A     B    C …
+	
+              x      y      z                  				      x     y     z
+c.          A      B      C      D…  				d.  A     B    C   D…  
+
+             x          y          z			                                    x        y      z
+
+e.          A      B      C      D…  				f.   A   B   C   D…  
+
+            x       y         			                                    x      y  
+To explain the paradigm in (2), There are three such conventions, illustrated schematically by the association of lower case melodic elements
+with upper case melody-bearing elements in (2).
+i.	If there are several unassociated melodic elements and several unassociated melody-bearing elements, the former are associated one-to-one
+from left to right with the latter. This transforms a representation like (2a) into the one in (2b).
+ii.	If, after application of the first convention, there remain one unassociated melodic element and one or more unassociated 
+melody-bearing elements, the former is associated with all of the latter. This transforms (2c) into (2d).
+iii.	If all melodic elements are associated and if there are one or more unassociated melody-bearing elements, 
+all of the latter are assigned the melody associated with the melody-bearing element on their immediate left if possible.
+This principle, which has the effect of automatic spreading, will alter (2e) to (2f).
+
+To be noted in this context, this system aligns with Chomsky's (1957) Transformational Grammar, which posits that grammatical rules govern the
+transformation of underlying structures into surface structures. Just as Chomsky's transformational rules manipulate underlying syntactic structures, 
+classical Arabic verb derivation manipulates the root and pattern structure through a set of well-defined phonological and morphological rules. 
+The morphophonemic alternations in Arabic can be seen as a parallel to the syntactic transformations Chomsky proposes, wherein underlying structures undergo
+operations to produce acceptable linguistic outputs. The relationship between root and pattern in Arabic morphology, which is governed by systematic derivational 
+principles, thus echoes the structural transformations proposed in generative grammar.
+Generative linguistics, as conceptualized by Chomsky and Halle (1968), seeks to understand the underlying rules that govern the structure of natural languages 
+through a formalized system. Chomsky's (1951) theory of transformational grammar laid the foundation for understanding how languages can be derived from 
+a set of abstract rules that operate on an underlying structure, generating well-formed surface forms. Chomsky and Halle’s (1968) work, The Sound Pattern
+of English, brought forward the concept of levels of adequacy in phonological analysis, focusing on the relationship between deep structures and surface forms
+in language. The deep structure of a sentence represents the syntactic and semantic representation of a sentence, while the surface structure is the actual
+spoken or written form.
+ In the context of Arabic verb derivation, this concept can be applied to the distinction between the underlying root and the surface forms produced by applying vowel patterns and phonological rules . The Arabic verbal system can be analyzed through this lens, where the root serves as the deep structure, and the morphophonemic alternations and binyan forms are surface representations generated through transformational processes. Furthermore, Chomsky’s recursive property in natural languages, which asserts that sentences can be infinitely generated through the repeated application of rules, has implications for understanding how Arabic morphological structures can produce a wide variety of verb forms from a limited set of roots and patterns. In this regard, generative grammar’s emphasis on formal rule formation and recursive processes offers a compelling framework for analyzing the richness and variety of Arabic verbal derivations. Chomsky’s approach provides an abstract yet powerful mechanism for explaining how complex linguistic forms are derived from simple underlying elements, offering insights into how the intricate morphological and phonological rules of Arabic can be captured within a formal generative framework.
+Optimality Theory (OT), as proposed by Prince and Smolensky (1993), introduces a new perspective on linguistic theory by positing that the surface form of a language is the result of competing constraints, where these constraints are ranked in a hierarchy, and the optimal form is the one that best satisfies the highest-ranked constraints. In this theory, two primary types of constraints, markedness and faithfulness, interact to produce the optimal linguistic output. Markedness constraints favor linguistic forms that are simpler and more universal across languages, while faithfulness constraints preserve the specific features of the input, such as phonological or morphological properties.
+In the context of Arabic morphology, OT provides an elegant model for analyzing the phonological alternations and morphological transformations that arise during verb derivation. For example, in the derivation of Arabic verb forms , markedness constraints may prefer forms that avoid certain phonological complexities (such as gemination or vowel lengthening), while faithfulness constraints would preserve the integrity of the root and its canonical vowel patterns. The interaction between these constraints can lead to the resolution of conflicting grammatical rules. For instance, the verb form kataba (he wrote) undergoes vowel changes in certain derived forms, such as kātaba (he corresponded), where the alternation reflects a balance between preserving the root structure and introducing phonologically marked elements. In some cases, the preference for simpler, more marked structures may conflict with the need to preserve phonological distinctions between forms, creating competition between constraints.
+Furthermore, the flexibility of OT in capturing such conflicts between constraints is particularly useful in analyzing the complex interaction between the phonological and morphological aspects of Arabic verb derivation, offering a robust formalism that aligns well with both classical and generative approaches to linguistics (Kager, 2004; Prince & Smolensky, 1993). Through this framework, Arabic verb derivation can be seen as the outcome of a process in which competing constraints interact to yield the optimal form, providing valuable insights into the structure and dynamics of the Arabic verbal system. 
+To recapitulate, these three theoretical frameworks, classical Arabic morphology, generative linguistics, and optimality theory, offer complementary perspectives on the study of Arabic verbal derivation. Whereas classical Arabic linguistic theory provides a historical and morphological foundation, generative and optimality approaches offer formal mechanisms for analyzing the underlying processes and constraints that govern language structure. Together, these theories form a comprehensive framework for understanding how Arabic verb forms are derived, offering both historical depth and contemporary analytical tools to address the research questions at hand.
+
+Literature Review.
+This literature review examines recent studies on the intersection of classical Arabic morphophonemic theory, and modern linguistic frameworks, specifically generative phonology and nonconcatenative morphology. The review addresses the research questions outlined in the study: how medieval Arabist treatments of morphophonemic theory align with modern linguistics, and how these treatments contribute to the analysis of predicates and structural changes in generative frameworks. By reviewing the most recent literature, this section will identify gaps in current research and propose a direction for further inquiry.
+Historically. Classical Arabic phonology and morphology are foundational to understanding the development of generative linguistics' theories of phonological and morphological structure. As Fassi Fehri (1993) and Versteegh (2014) observe, Arabic morphology is characterized by root-and-pattern systems, where consonantal roots are combined with vowel patterns to generate a variety of verb forms. These forms are not just phonologically distinct but also exhibit significant syntactic and semantic variation . Recent scholarship continues to explore how these classical structures interact with modern theories such as generative phonology and Optimality Theory (OT).
+For instance, McCarthy's (1981) nonconcatenative morphology and Chomsky and Halle’s (1968) generative phonology offer frameworks that align well with Arabic morphology’s root-and-pattern system. Recent studies have revisited these classical models in light of generative linguistics, considering how Arabic phonological alternations (e.g., vowel lengthening, gemination, and metathesis) fit within contemporary formal linguistic models.
+Contemporarily, recent studies in generative linguistics have focused on the applicability of Chomsky and Halle's (1968) Sound Pattern of English to non-Indo-European languages , such as Arabic. Al-Mozaini (2020) provides a thorough analysis of how Arabic morphophonemic alternations can be modeled through generative phonology, using a similar approach to Chomsky’s transformational rules. Al-Mozaini’s work aligns Arabic verbal derivation with transformational grammar by showing how the root-and-pattern system generates surface forms through phonological rules. His study indicates that generative grammar can accommodate the complexity of Arabic morphology, particularly the interactions between consonantal roots and vocalic patterns. This work underscores the relevance of classical Arabist phonological concepts to modern linguistic frameworks, while also addressing the limitations of purely rule-based approaches.
+A further study by Khalil and Ibrahim (2022) explores how nonconcatenative morphology, as proposed by McCarthy (1981), can account for Arabic verb derivation. Their research focuses on how templates in Arabic are shaped by both phonological and morphological constraints, demonstrating that nonconcatenative processes such as infixation and reduplication can be understood within McCarthy’s framework. Khalil and Ibrahim show that, much like the templatic system in Arabic, nonconcatenative processes in other languages can be analyzed using similar constraints and principles. This study highlights the flexibility of McCarthy’s theory in explaining Arabic’s morphological intricacies and extends it by incorporating Optimality Theory, which has become a dominant framework in modern linguistics (Prince & Smolensky, 1993).
+While classical Arabic linguistics focuses on a descriptive approach to phonology and morphology, modern theories like generative phonology and OT provide more formalized, rule-based accounts. These modern frameworks emphasize the underlying structures of language and the transformational rules that govern how surface forms are derived. A recent study by Al-Saadi (2023) explores the reconciliation of classical Arabist treatments with modern generative and optimality theories. He argues that medieval Arabist morphophonemic theories, particularly Ibn Mālik's (13th century) system of verb derivation, can be integrated into contemporary formal linguistic frameworks, including OT and generative phonology. Al-Saadi shows that Ibn Mālik’s detailed observations on the interaction of consonantal roots and vocalic patterns align with modern concepts of phonological and morphological constraints. His study makes a compelling case for the continued relevance of classical Arabist ideas in contemporary phonological and morphological analysis.
+However, a gap in this line of research is the limited exploration of the specific syntactic implications of classical Arabist theories. Most recent studies, including those by Al-Mozaini (2020) and Khalil and Ibrahim (2022), focus primarily on the phonological and morphological aspects of Arabic, without sufficiently examining how these forms interact with syntactic structures. As generative linguistics has evolved to incorporate syntax more comprehensively, a deeper investigation into how medieval Arabic grammarians' views on morphology align with generative syntactic theories is required.
+Additionally, the integration of Optimality Theory into this discourse remains underexplored. While OT has been applied to Arabic verb morphology (Kager, 2004), there is a lack of consensus on how  the theory’s competing constraints can be mapped directly onto classical Arabist morphophonemic structures. Studies such as those by Prince and Smolensky (1993) provide a framework for understanding these conflicts, but the question of how OT constraints specifically resolve morphophonemic alternations in Arabic is still an open one. Further research is needed to test the viability of OT’s constraints in accounting for Arabic’s unique morphological phenomena, particularly when viewed through the lens of classical Arabist phonology.
+The literature reviewed highlights several critical contributions to understanding Arabic phonology within modern linguistic frameworks. First, studies by Al-Mozaini (2020) and Khalil and Ibrahim (2022) offer valuable insights into the application of generative phonology and nonconcatenative morphology to Arabic. These studies build on classical Arabist theories and propose ways to integrate them with modern linguistic methods. However, despite these advances, significant gaps remain. There is a lack of research directly comparing classical Arabist theories with generative syntactic analysis. The focus on phonological and morphological processes often overlooks the syntactic interactions that are central to the full integration of classical and modern theories.
+Moreover, while Optimality Theory has been applied to Arabic morphology, its application remains superficial in many studies. More in-depth research is needed to address how the constraints in OT interact with the phonological and morphological alternations specific to Arabic. Finally, the contributions of classical Arabist linguistics to the modern understanding of predicates and structural changes are still under-explored, particularly in terms of how Ibn Mālik’s work on verbal derivation informs current linguistic models of structural transformation.
+The literature reveals that while substantial progress has been made in integrating classical Arabist phonology with modern linguistic theories, several gaps remain. Future research should focus on examining how classical Arabic morphological and phonological rules can inform generative syntactic analysis. Additionally, further work is needed to explore the full potential of Optimality Theory in explaining Arabic verb derivation and morphophonemic alternations. Addressing these gaps will not only enrich the understanding of Arabic linguistics but also contribute to the broader field of generative and optimality-based phonology.
+3.	Methodology.
+3.1.	Research Design.
+This research will follow a qualitative methodology, which is particularly suited for investigating complex theoretical questions and examining the interaction between classical and modern linguistic theories. Qualitative research allows for an in-depth exploration of the theoretical concepts and historical texts central to the study, facilitating a detailed comparison of medieval Arabist phonology with contemporary frameworks in generative linguistics.
+By employing a qualitative approach, this study will engage in thematic analysis of both classical Arabic grammatical texts and modern linguistic literature. The focus will be on interpreting the ideas, structures, and principles articulated by Arabist grammarians, and evaluating how these ideas can be reconciled with or contribute to current understandings in generative phonology and morphology. Rather than focusing on numerical data or statistical analysis, this research will prioritize a conceptual comparison, examining key theoretical constructs such as root-and-pattern morphology, morphophonemic alternations, and syntactic transformations.
+Accordingly, this study will analyze classical Arabic texts alongside modern linguistic theories to draw meaningful comparisons and establish connections between historical and contemporary approaches to language. The primary texts for analysis will include works by medieval Arabist grammarians, particularly Ibn Mālik’s Lāmiyat al-Afʿāl, as well as other seminal works in classical Arabic grammatical studies. These texts offer foundational treatments of Arabic morphophonemics, verb derivation, and syntactic structures, which will be carefully examined in light of modern generative phonology (e.g., Chomsky & Halle, 1968) and nonconcatenative morphology (e.g., McCarthy, 1981).
+The study will systematically compare the morphological and phonological systems proposed by medieval Arabists with the formal frameworks of generative linguistics, particularly focusing on the mechanisms of rule application, transformations, and the interaction of constraints. By juxtaposing classical and modern approaches, the research will seek to understand how Arabist insights into Arabic’s verbal system align with or diverge from contemporary theories, offering new perspectives on the evolution of linguistic theory and deepening our understanding of Arabic morphology within a global linguistic context.
+3.2.	Data Collection.
+Ibn Mālik  (d. 1277 CE), an eminent Andalusian grammarian, is particularly recognized for his contributions to the formalization of Arabic syntax and morphology. His Lāmīyah (Lāmīyat al-Af‘āl), henceforth Ibn Malik (1997) , offers a precise and systematic exposition of Arabic verbal morphology, focusing on the conjugation patterns and the categorization of verbs based on their triliteral roots. The text delves into the phonological and morphological variations of Arabic verbs, outlining the processes of root modification, including the formation of weak, doubled, and hollow verbs.
+Through the application of metrical verse, Ibn Mālik condenses these morphological rules into a mnemonic format that facilitates memorization and application, making the Ibn Malik (1997) a crucial tool for both theoretical and applied linguistic study. The poem  systematically covers the interaction between verb forms and their syntactic roles in sentence structure, particularly focusing on the agreement of verb-subject relations and the interaction between verbal tenses (Fahd, 1984).
+In the context of Arabic grammar, Ibn Malik (1997) serves as a specialized complement to Ibn Mālik's more comprehensive Alfiyyah  , henceforth (Ibn Mālik, 1277). While the (Ibn Mālik, 1277) provides an expansive survey of grammatical phenomena, including syntax, morphology, and phonology, the Ibn Malik (1997) narrows its focus to verb morphology, highlighting both regular and irregular conjugation paradigms. It addresses the syntactic functions of verbs in terms of their transitivity, aspect, and tense, offering a detailed analysis of verb form derivations. Ibn Mālik’s methodological precision in his treatment of verb morphology, emphasizing verbal stems, affixation, and conjugation, reflects his profound mastery of Arabic grammar and his impact on subsequent grammatical tradition. His works   on verb forms remains foundational in both classical and modern Arabic linguistics, serving as a pivotal reference in the study of Arabic morphological structure (Versteegh, 2001; Barton, 1964).
+(Chomsky and Halle, 1968) and nonconcatenative morphology (McCarthy, 1981).
+
+
+
+ 
+Saussure, F. de. (1959). Course in general linguistics (C. Bally & A. Sechehaye, Eds.; W. Baskin, Trans.). Philosophical Library. (Original work published 1916)
+
+_________________________________________________
 #          This is based on Al Suti formulla in Almuzhir
 #           A function to Generate all possible two-character combinations of the Arabic alphabet.
-# Here is the explaination 
+from itertools import product
+
+def analyze_arabic_combinations():
+    """
+    Generate all possible two-character combinations of the Arabic alphabet,
+    include reverses, and count specific pair types.
+
+    Counts:
+    - Pairs with no vowels.
+    - Pairs with one vowel.
+    - Pairs where both letters are the same.
+
+    Includes a note about why some references suggest 27 pairs of vowels.
+
+    Returns:
+        dict: Counts of specific pair types and the full list of combinations.
+    """
+    # Step 1: Define the Arabic alphabet
+    arabic_alphabet = [
+        "ا", "ب", "ت", "ث", "ج", "ح", "خ", "د", "ذ", "ر",
+        "ز", "س", "ش", "ص", "ض", "ط", "ظ", "ع", "غ", "ف",
+        "ق", "ك", "ل", "م", "ن", "ه", "و", "ي"
+    ]
+    vowels = {"ا", "و", "ي"}  # Arabic vowels
+
+    # Step 2: Create all combinations (28 × 28 = 784)
+    combinations = list(product(arabic_alphabet, repeat=2))
+    all_combinations = ["".join(combo) for combo in combinations]
+
+    # Step 3: Include both normal and reversed pairs (784 total)
+    # Note: Some references state that only 27 unique vowel pairs exist due to 
+    # specific constraints or interpretations of the pairing rules in certain contexts.
+    reversed_combinations = [pair[::-1] for pair in all_combinations]
+    final_combinations = all_combinations + reversed_combinations
+
+    # Step 4: Count specific pair types
+    no_vowels_count = 0
+    one_vowel_count = 0
+    same_letters_count = 0
+
+    for pair in final_combinations:
+        first, second = pair
+        is_vowel_1 = first in vowels
+        is_vowel_2 = second in vowels
+
+        if not is_vowel_1 and not is_vowel_2:
+            no_vowels_count += 1
+        elif is_vowel_1 ^ is_vowel_2:  # XOR: Exactly one vowel
+            one_vowel_count += 1
+
+        if first == second:
+            same_letters_count += 1
+
+    # Step 5: Return the results
+    return {
+        "total_combinations": len(final_combinations),
+        "combinations": final_combinations,
+        "no_vowels_count": no_vowels_count,
+        "one_vowel_count": one_vowel_count,
+        "same_letters_count": same_letters_count,
+    }
+
+# Example usage
+results = analyze_arabic_combinations()
+print(f"Total combinations: {results['total_combinations']}")
+print(f"Pairs with no vowels: {results['no_vowels_count']}")
+print(f"Pairs with one vowel: {results['one_vowel_count']}")
+print(f"Pairs with the same letters: {results['same_letters_count']}") 
