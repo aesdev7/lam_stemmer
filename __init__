@@ -1,27 +1,97 @@
 # This is __init__.py 
-text in (paranthases) is a remark on the what is to be empirically proven as a misconception.
+text in (paranthases) is a remark on what is to be empirically proven as a misconception.
 """
 
 This is motivated by McCarthy, (1981); a treatment of the nonconcatenative morphological system of Classical Arabic verbal system (Cl.Ar). 
 Semitic languages processes of morphological derivation are characterised by a wide variety of purely morphological alternations internal to the verb stem
-( its more of phonological alternations than morphological alternations ones).
+(it's more of phonological alternations than morphological ones).
 
-Thus, Cl.Ar Morphological Categories are expressed by morphemes whose only constant is a fixed canonical pattern based on triplicity concept. (for accuracy sakes, the constant is the template's phonological
-rules/patterns. In other words, contigous consonant-vowel segments e.g. in a CV.[CV].CV skelton. the conventional affixation system, as in
-Indo-European languages, but  Indeed, this seaminglly simple trivil fact is the secret of the complixity of the whole system.
+Thus, Cl.Ar Morphological categories are expressed by morphemes whose only constant is a fixed canonical pattern based on triplicity concept.
+(for accuracy sakes, the constant is the template's phonological rules/patterns.) 
+Indeed, this seaminglly simple trivil fact is the secret of the complixity of the whole system.
+
 This project aims at explicating the system of predicates used to analyze inputs i.e. the possible structural descriptions of rules, and to define the operations
-available for transforming inputs, the possible Structural Changes of rules. Ultimitly, a structural description delimiting a class of inputs and a Structural Change specifying
-the operations that altered the input are sought.
+available for transforming inputs, the possible structural changes of rules. Ultimitly, a structural description delimiting a class of inputs and a Structural 
+Change specifying the operations that altered the input are sought.
 
-/a/: A low, open vowel.
-/i/: A high, front vowel.
-/u/: A high, back vowel.
-Vowels are characterized by their steady-state articulatory positions, serving as syllable nuclei.
+
+
+_________________________________________________
+#  This is based on Al Suti formulla in Almuzhir
+#  A function to Generate all possible two-character combinations of the Arabic alphabet.
+from itertools import product
+
+def analyze_arabic_combinations():
+    """
+    Generate all possible two-character combinations of the Arabic alphabet,
+    include reverses, and count specific pair types.
+
+    Counts:
+    - Pairs with no vowels.
+    - Pairs with one vowel.
+    - Pairs where both letters are the same.
+
+    Includes a note about why some references suggest 27 pairs of vowels.
+
+    Returns:
+        dict: Counts of specific pair types and the full list of combinations.
+    """
+    # Step 1: Define the Arabic alphabet
+    arabic_alphabet = [
+        "ا", "ب", "ت", "ث", "ج", "ح", "خ", "د", "ذ", "ر",
+        "ز", "س", "ش", "ص", "ض", "ط", "ظ", "ع", "غ", "ف",
+        "ق", "ك", "ل", "م", "ن", "ه", "و", "ي"
+    ]
+    vowels = {"ا", "و", "ي"}  # Arabic vowels
+
+    # Step 2: Create all combinations (28 × 28 = 784)
+    combinations = list(product(arabic_alphabet, repeat=2))
+    all_combinations = ["".join(combo) for combo in combinations]
+
+    # Step 3: Include both normal and reversed pairs (784 total)
+    # Note: Some references state that only 27 unique vowel pairs exist due to 
+    # specific constraints or interpretations of the pairing rules in certain contexts.
+    reversed_combinations = [pair[::-1] for pair in all_combinations]
+    final_combinations = all_combinations + reversed_combinations
+
+    # Step 4: Count specific pair types
+    no_vowels_count = 0
+    one_vowel_count = 0
+    same_letters_count = 0
+
+    for pair in final_combinations:
+        first, second = pair
+        is_vowel_1 = first in vowels
+        is_vowel_2 = second in vowels
+
+        if not is_vowel_1 and not is_vowel_2:
+            no_vowels_count += 1
+        elif is_vowel_1 ^ is_vowel_2:  # XOR: Exactly one vowel
+            one_vowel_count += 1
+
+        if first == second:
+            same_letters_count += 1
+
+    # Step 5: Return the results
+    return {
+        "total_combinations": len(final_combinations),
+        "combinations": final_combinations,
+        "no_vowels_count": no_vowels_count,
+        "one_vowel_count": one_vowel_count,
+        "same_letters_count": same_letters_count,
+    }
+
+# Example usage
+results = analyze_arabic_combinations()
+print(f"Total combinations: {results['total_combinations']}")
+print(f"Pairs with no vowels: {results['no_vowels_count']}")
+print(f"Pairs with one vowel: {results['one_vowel_count']}")
+print(f"Pairs with the same letters: {results['same_letters_count']}") 
 
 _________________________________________________________________________________________________________
 
 
-Classical Arabist phonology can be seen as a blend of both normative and descriptive approaches. While Arabist grammarians 
+Classical Arabist Linguistic Theory can be seen as a blend of both "normative" and "descriptive" approaches. While Arabist grammarians 
 and linguists often established rules that were prescriptive, guiding correct pronunciation and usage based on classical norms, 
 they also demonstrated a keen interest in documenting and describing the phonological systems of Arabic as they evolved. 
 The normative aspect can be seen in their emphasis on preserving the traditional forms of the language, often seeking to codify 
@@ -191,74 +261,4 @@ In the context of Arabic grammar, Ibn Malik (1997) serves as a specialized compl
  
 Saussure, F. de. (1959). Course in general linguistics (C. Bally & A. Sechehaye, Eds.; W. Baskin, Trans.). Philosophical Library. (Original work published 1916)
 
-_________________________________________________
-#          This is based on Al Suti formulla in Almuzhir
-#           A function to Generate all possible two-character combinations of the Arabic alphabet.
-from itertools import product
 
-def analyze_arabic_combinations():
-    """
-    Generate all possible two-character combinations of the Arabic alphabet,
-    include reverses, and count specific pair types.
-
-    Counts:
-    - Pairs with no vowels.
-    - Pairs with one vowel.
-    - Pairs where both letters are the same.
-
-    Includes a note about why some references suggest 27 pairs of vowels.
-
-    Returns:
-        dict: Counts of specific pair types and the full list of combinations.
-    """
-    # Step 1: Define the Arabic alphabet
-    arabic_alphabet = [
-        "ا", "ب", "ت", "ث", "ج", "ح", "خ", "د", "ذ", "ر",
-        "ز", "س", "ش", "ص", "ض", "ط", "ظ", "ع", "غ", "ف",
-        "ق", "ك", "ل", "م", "ن", "ه", "و", "ي"
-    ]
-    vowels = {"ا", "و", "ي"}  # Arabic vowels
-
-    # Step 2: Create all combinations (28 × 28 = 784)
-    combinations = list(product(arabic_alphabet, repeat=2))
-    all_combinations = ["".join(combo) for combo in combinations]
-
-    # Step 3: Include both normal and reversed pairs (784 total)
-    # Note: Some references state that only 27 unique vowel pairs exist due to 
-    # specific constraints or interpretations of the pairing rules in certain contexts.
-    reversed_combinations = [pair[::-1] for pair in all_combinations]
-    final_combinations = all_combinations + reversed_combinations
-
-    # Step 4: Count specific pair types
-    no_vowels_count = 0
-    one_vowel_count = 0
-    same_letters_count = 0
-
-    for pair in final_combinations:
-        first, second = pair
-        is_vowel_1 = first in vowels
-        is_vowel_2 = second in vowels
-
-        if not is_vowel_1 and not is_vowel_2:
-            no_vowels_count += 1
-        elif is_vowel_1 ^ is_vowel_2:  # XOR: Exactly one vowel
-            one_vowel_count += 1
-
-        if first == second:
-            same_letters_count += 1
-
-    # Step 5: Return the results
-    return {
-        "total_combinations": len(final_combinations),
-        "combinations": final_combinations,
-        "no_vowels_count": no_vowels_count,
-        "one_vowel_count": one_vowel_count,
-        "same_letters_count": same_letters_count,
-    }
-
-# Example usage
-results = analyze_arabic_combinations()
-print(f"Total combinations: {results['total_combinations']}")
-print(f"Pairs with no vowels: {results['no_vowels_count']}")
-print(f"Pairs with one vowel: {results['one_vowel_count']}")
-print(f"Pairs with the same letters: {results['same_letters_count']}") 
