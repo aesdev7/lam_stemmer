@@ -1,24 +1,29 @@
-# This is __init__.py 
-text in (paranthases) is a remark on what is to be empirically proven as a misconception.
+# This is __init__.py
+
+
+# To do:
+# Check the spelling of this.
+
+Text in (paranthases) is to be empirically proven.
 """
 
 This is motivated by McCarthy, (1981); a treatment of the nonconcatenative morphological system of Classical Arabic verbal system (Cl.Ar). 
 Semitic languages processes of morphological derivation are characterised by a wide variety of purely morphological alternations internal to the verb stem
 (it's more of phonological alternations than morphological ones).
 
-Thus, Cl.Ar Morphological categories are expressed by morphemes whose only constant is a fixed canonical pattern based on triplicity concept.
-(for accuracy sakes, the constant is the template's phonological rules/patterns.) 
-Indeed, this seaminglly simple trivil fact is the secret of the complixity of the whole system.
-
-This project aims at explicating the system of predicates used to analyze inputs i.e. the possible structural descriptions of rules, and to define the operations
-available for transforming inputs, the possible structural changes of rules. Ultimitly, a structural description delimiting a class of inputs and a Structural 
-Change specifying the operations that altered the input are sought.
+Thus, Cl.Ar Morphological categories are expressed by morphemes whose only constant is a fixed canonical pattern based on triplicity concept; hree consononts whose 
+nucli. is ء. (for accuracy sakes, the constant is the template's phonological rules/patterns.) 
+Indeed, this seaminglly simple trivil fact holds the key to this complix system. This project aims at explicating the system of predicates used to analyze inputs
+i.e. the possible structural descriptions of rules, and to define the operations available for transforming inputs, the possible structural changes of rules.
+Ultimitly, a structural description delimiting a class of inputs and a Structural Change specifying the operations that altered the input are sought.
 
 
 
 _________________________________________________
 #  This is based on Al Suti formulla in Almuzhir
-#  A function to Generate all possible two-character combinations of the Arabic alphabet.
+#  A function to Generate all possible two-character combinations (giminates) of the Arabic alphabet. Code for generateing triliteral roots and qudiliterals
+# will ensu.
+
 from itertools import product
 
 def analyze_arabic_combinations():
@@ -45,7 +50,7 @@ def analyze_arabic_combinations():
     vowels = {"ا", "و", "ي"}  # Arabic vowels
 
     # Step 2: Create all combinations (28 × 28 = 784)
-    combinations = list(product(arabic_alphabet, repeat=2))
+    combinations = list(product(arabic_alphabet, repeat=1))
     all_combinations = ["".join(combo) for combo in combinations]
 
     # Step 3: Include both normal and reversed pairs (784 total)
@@ -88,10 +93,11 @@ print(f"Pairs with no vowels: {results['no_vowels_count']}")
 print(f"Pairs with one vowel: {results['one_vowel_count']}")
 print(f"Pairs with the same letters: {results['same_letters_count']}") 
 
-_________________________________________________________________________________________________________
+____________A Research Paper I'M DOING ON THIS _____________________________________________________________________________________________
 
+THE CONCEPT.
 
-Classical Arabist Linguistic Theory can be seen as a blend of both "normative" and "descriptive" approaches. While Arabist grammarians 
+Classical Arabic Linguistic Theory can be seen as a blend of both "normative" and "descriptive" approaches. While Arabist grammarians 
 and linguists often established rules that were prescriptive, guiding correct pronunciation and usage based on classical norms, 
 they also demonstrated a keen interest in documenting and describing the phonological systems of Arabic as they evolved. 
 The normative aspect can be seen in their emphasis on preserving the traditional forms of the language, often seeking to codify 
@@ -100,6 +106,8 @@ to the variations and nuances of spoken Arabic, recording regional dialects and 
 normative forms. In this way, their work was not merely about dictating how Arabic should be spoken, but also about observing 
 and analyzing the natural phonological developments and shifts within the language, making Arabist phonology a complex 
 intersection of both prescriptive and descriptive methods.
+
+
 While the comparative philologists, particularly those focused on Indo-European languages, often relied on a purely comparative 
 method without considering the historical relationships between languages, Arabist philologists took a more holistic and historically
 aware approach. They recognized that the study of language, especially Arabic, was deeply tied to its sacred use in the Qur’an, and thus
@@ -109,11 +117,14 @@ they also considered the historical and contextual factors that shaped its evolu
 the lens of rigid, independent stages, Arabist philologists recognized that language change was not linear or predetermined but influenced by both
 historical processes and the need to maintain linguistic correctness in sacred texts. Their methodology, therefore, was not only attentive to the 
 dynamics of language change but also committed to preserving the sanctity and correctness of the language as a living and evolving medium.
-This research paper focuses on the treatments of medieval Arabic grammarians, particularly their approach to morphophonemic theory, and positions
-these classical insights within a modern linguistic framework. To that effect, I will be arguing against Saussure (1959) claims on the object and
-subject matter of Linguistics study as outlined in his prominent work Course in general linguistics. Saussure postulate that the field of linguistics
-encompasses all forms of human speech, whether from primitive or advanced societies, or from ancient, classical, or declining periods. In this study
-on the other hand, I will be arguing that Linguistics study object is human language speech as a well-formed system. As Linguistics subject matter, 
+
+
+
+Having said that, this research paper focuses on the treatments of medieval Arabic grammarians, particularly their approach to morphophonemic theory, and positions
+these classical insights within a modern linguistic framework. I will be arguing against Saussure (1959) claims on the object and
+subject matter of Linguistics study as outlined in his prominent work Course in General Linguistics. Saussure postulate that the field of linguistics
+encompasses all forms of human speech, whether from primitive or advanced societies, ancient, classical, or declining periods.
+In this study on the other hand, I will be arguing that Linguistics study object is human language speech as a well-formed system. As Linguistics subject matter, 
 linguists are to determine the forces that are permanently and universally at work in natural languages, and to explicate general laws to which all 
 well-formed phenomena can be reduced. Ultimately, an answer to the following research questions is sought:
 (1). How can medieval Arabist treatments of morphophonemic theory be reconciled with modern linguistics frameworks of 
